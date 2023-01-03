@@ -1,0 +1,22 @@
+package org.fpm.di.example;
+
+import org.fpm.di.Binder;
+
+import javax.inject.Inject;
+
+public class DummyBinder implements Binder {
+    @Override
+    public <T> void bind(Class<T> clazz) {
+
+    }
+
+    @Override
+    public <T> void bind(Class<T> clazz, Class<? extends T> implementation) {
+
+    }
+
+    @Override
+    public <T> void bind(Class<T> clazz, T instance) {
+
+    }
+}
